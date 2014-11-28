@@ -1,0 +1,16 @@
+
+
+
+[package]
+
+name = "lam"
+version = "0.0.1"
+authors = ["lambda"]
+
+
+[dependencies.rust-sqlite]
+git = "https://github.com/dckc/rust-sqlite3"
+#git = "https://github.com/jgallagher/rusqlite"
+
+[dependencies.time]
+time = "~0.0.3"
